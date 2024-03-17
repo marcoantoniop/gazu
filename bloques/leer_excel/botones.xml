@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolbar>
+    <item id="reload" type="button" img="reload.png" text="Recargar"/>
+    <item id="home"   type="button" img="home.png" text="Inicio"/>
+    <item id="none"    type="button" img="select_none.png"    text="Ninguno"/>
+    <item id="all"   type="button" img="select_all.png"   text="Todos"/>
+    <item id="import" type="button" img="xlsx.png" text="Importar XLSX Seleccionados a CSV"/>
+    <item id="importsql" type="button" img="sql.png" text="Importar XLSX Seleccionados a SQL"/>
+</toolbar>

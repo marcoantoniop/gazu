@@ -1,0 +1,228 @@
+/* <!-- */
+#cache{
+  	position:absolute;
+	left:88px;
+	top:50px;
+	width:1031px;
+	height:445px;
+	z-index:1;	
+}
+body {
+	margin: 0;
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #144B83;
+	background-color: #20718E;
+	border-top: 5px #4b5c7a solid;
+	padding: 0;
+	border-bottom: 0px #4b5c7a solid;
+	font-size: medium;
+}
+
+
+/* Banner across top of page that says the name of the whole site */
+
+#main-title {
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	/*padding-right: 100px;*/
+	background-color:#20718E;
+	color: #414F69;
+	font-size: 1.4em;
+	letter-spacing: 5px;
+	text-align:center;
+	background:url(fondo_tit.jpg);
+}
+
+table {
+	font-size: 12px;
+}
+
+#titulo-menu{
+position:absolute;
+left:405px;
+top:13px;
+width:325px;
+height:33px;
+z-index:1;
+}
+/* Styles for the main text on the page. */
+
+#main-text {
+	top:200px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 160px;
+	margin-right: 0px;
+	background-color: #E0EEF8;
+	border-left: 1px #4b5c7a solid;
+	border-right: 1px #4b5c7a solid;
+	background:url(fondo.jpg);
+}
+
+h1 {
+margin-top: 0;
+margin-bottom: 15px;
+margin-left: 0;
+margin-right: 0;
+font-size: 16px;
+color: #4b5c7a;
+padding-bottom: 9px;
+padding-top: 3px;
+padding-left: 16px;
+padding-right: 0;
+font-weight: normal;
+border-bottom: 1px #4b5c7a solid;
+font-family:"Arial Black", Gadget, sans-serif;
+}
+
+h2 {
+padding: 0;
+color: #4b5c7a;
+font-weight: bold;
+padding-left: 14px;
+margin: 0;
+padding-top: 5px;
+padding-bottom: 5px;
+font-size: 12px;}
+
+p, ul, ol {
+	padding-left: 14px;
+	font-size: medium;
+	line-height: 1.9em;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #044790;
+}
+
+ol, ul {
+margin-left: 25px;
+}
+
+a:link, a:visited {
+	color: #3E599B;
+	text-decoration: none;
+	font-weight: bold;/*border-bottom: 2px #4b5c7a dotted;*/
+}
+
+a:hover {
+color: #3E599B;
+text-decoration: none;
+font-weight: bold;
+}
+
+/* Styles for the navbar on the left side. */
+#left-menu {
+position: absolute;
+top: 0;
+left: 0;
+width: 160px;
+border-right: 1px #4b5c7a solid;
+border-bottom: 1px #4b5c7a solid;
+height: 100%;
+padding-top: 50px;
+padding-bottom: 200px;
+}
+
+#bloque-fecha {
+	position: absolute;
+	font-family:Verdana, Geneva, sans-serif;
+	top: 0;
+	left: 0;
+	width: 160px;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 100px;
+	padding-left: 5px;
+	font-size: 9px;
+	color:#FFF;
+}
+
+#left-menu a:link, #left-menu a:visited {
+border-bottom: 1px #4b5c7a solid;
+display: block;
+color: #184870;
+text-align: right;
+padding-right: 7px;
+padding-bottom: 8px;
+padding-top: 8px;
+font-size: .8em;
+}
+
+#left-menu a:hover, #left-menu a.current {
+color: #224a8a;
+background-color: #7da1e4;
+}
+/* Muestra el tiempo de Carga de la página */
+#carga {
+text-align: right;
+color: #0d5284;
+margin-bottom: 0;
+padding-top: 8px;
+padding-bottom: 10px;
+margin-top: 0;
+padding-right: 50px;
+font-size: .6em;
+margin-left:165px;
+}
+
+/* Styles for the footer at the bottom of the page */
+#footer {
+	text-align: right;
+	color: #FFF;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px #FFF solid;
+	margin-top: 0;
+	border-bottom: 5px #FFF solid;
+	padding-right: 50px;
+	font-size: 0.7em;
+	margin-left:165px;
+}
+
+
+#footer a:link, #footer a:visited {
+	color: #FFF;
+	border: none;
+}
+
+#footer a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+.validador {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	font-style: normal;
+	color: #FF0000;
+	border: thin groove #FF9966;
+}
+
+.boton {
+	font-size:10px;
+	font-family:Verdana,Helvetica;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:#638cb5;
+	border:0px;
+	width:80px;
+	height:19px;
+}
+
+
+.boton2 {
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:#FFFFFF;
+	background:#638cb5;
+	border:5px;
+	width:250px;
+	height:19px;
+}
+
+/* --> */
